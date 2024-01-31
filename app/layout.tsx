@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Software para Cassinos Online - Crie sua plataforma Online",
   description:
-    "Tenha a melhor plataforma de Cassino Online totalmente customizada alem de suporte 24h",
+    "Tenha a melhor plataforma de Cassino Online totalmente customizada alem de suporte 24h para melhor atende-lo",
 };
 
 export default function RootLayout({
