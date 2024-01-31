@@ -10,7 +10,7 @@ export function TabsSection() {
       value: "Flyperama",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-blue-900">
-          <p>Flyperama game</p>
+          <p>Flyperama games</p>
           <DummyContent />
         </div>
       ),
