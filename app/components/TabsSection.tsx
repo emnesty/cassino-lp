@@ -9,7 +9,11 @@ export function TabsSection() {
       title: "Flyperama",
       value: "Flyperama",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-blue-900">
+        <div
+          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-blue-900"
+          data-aos="fade-up"
+          data-aos-duration="900"
+        >
           <p>Flyperama games</p>
           <DummyContent />
         </div>
@@ -19,7 +23,11 @@ export function TabsSection() {
       title: "Services",
       value: "services",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-blue-900">
+        <div
+          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-blue-900"
+          data-aos="fade-up"
+          data-aos-duration="900"
+        >
           <p>Services tab</p>
           <DummyContent />
         </div>
@@ -29,7 +37,11 @@ export function TabsSection() {
       title: "Playground",
       value: "playground",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-blue-900">
+        <div
+          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-blue-900"
+          data-aos="fade-up"
+          data-aos-duration="900"
+        >
           <p>Playground tab</p>
           <DummyContent />
         </div>
@@ -39,7 +51,11 @@ export function TabsSection() {
       title: "Content",
       value: "content",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-blue-900">
+        <div
+          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-blue-900"
+          data-aos="fade-up"
+          data-aos-duration="900"
+        >
           <p>Content tab</p>
           <DummyContent />
         </div>
@@ -49,7 +65,11 @@ export function TabsSection() {
       title: "Random",
       value: "random",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-blue-900">
+        <div
+          className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-blue-900"
+          data-aos="fade-up"
+          data-aos-duration="900"
+        >
           <p>Random tab</p>
           <DummyContent />
         </div>

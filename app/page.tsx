@@ -3,6 +3,7 @@ import { TabsSection } from "./components/TabsSection";
 import HeroSection from "./components/HeroSection";
 import { InfiniteMovingCardsSection } from "./components/InfiniteCardsSection";
 import { CardHoverEffect } from "./components/CardsHover";
+import StatsSection from "./components/StatsSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <InfiniteMovingCardsSection />
       <TabsSection />
       <CardHoverEffect />
+      <StatsSection />
     </>
   );
 }

@@ -18,7 +18,11 @@ export const HoverEffect = ({
 
   return (
     <div className="h-[50rem] flex flex-col py-8  antialiased bg-gray-900 dark:bg-gray-900 dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <div className="mx-auto max-w-2xl lg:text-center">
+      <div
+        className="mx-auto max-w-2xl lg:text-center"
+        data-aos="fade-up"
+        data-aos-duration="900"
+      >
         <h2 className="text-base font-semibold leading-7 text-indigo-400">
           Benefícios
         </h2>
@@ -37,6 +41,8 @@ export const HoverEffect = ({
         </a>
       </div>
       <div
+        data-aos="fade-up"
+        data-aos-duration="800"
         className={cn(
           "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
           className
