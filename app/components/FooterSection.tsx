@@ -103,7 +103,7 @@ export default function FooterSection() {
           ))}
         </div>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-          &copy; 2024 VGamin, Inc. Todos os direitos reservados
+          &copy; 2024 VGaming Solutions, Inc. Todos os direitos reservados
         </p>
       </div>
     </footer>
