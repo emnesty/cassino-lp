@@ -1,7 +1,7 @@
 const stats = [
   { id: 1, name: "Clientes satisfeitos", value: "+100" },
   { id: 2, name: "Jogadores nas plataformas", value: "+2.000.000" },
-  { id: 3, name: "Uptime guarantee", value: "99.9%" },
+  { id: 3, name: "Alta disponibilidade", value: "99.9%" },
   { id: 4, name: "Receita bruta da operação", value: "R$ 100.000.000" },
 ];
 
