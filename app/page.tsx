@@ -6,6 +6,8 @@ import { CardHoverEffect } from "./components/CardsHover";
 import StatsSection from "./components/StatsSection";
 import FooterSection from "./components/FooterSection";
 import { FloatingNavSection } from "./components/FloatingNavbar";
+import FeatureSection from "./components/FeatureSection";
+import LogoCloudsSection from "./components/LogoClouds";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <TabsSection />
       <CardHoverEffect />
       <StatsSection />
+      <FeatureSection />
+      <LogoCloudsSection />
       <FooterSection />
     </>
   );
