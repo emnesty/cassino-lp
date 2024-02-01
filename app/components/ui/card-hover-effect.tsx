@@ -17,13 +17,13 @@ export const HoverEffect = ({
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <div className="h-[50rem] flex flex-col py-8  antialiased bg-gray-900 dark:bg-gray-900 dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="h-[50rem] flex flex-col py-4  antialiased bg-gray-900 dark:bg-gray-900 dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <div
         className="mx-auto max-w-2xl lg:text-center"
         data-aos="fade-up"
         data-aos-duration="900"
       >
-        <h2 className="text-base font-semibold leading-7 text-indigo-400">
+        <h2 className="text-2xl font-semibold leading-7 text-indigo-400">
           Benefícios
         </h2>
         <p className="mt-2  text-3xl font-bold tracking-tight text-white sm:text-4xl">

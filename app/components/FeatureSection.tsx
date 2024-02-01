@@ -36,7 +36,7 @@ export default function FeatureSection() {
               data-aos="fade-right"
               data-aos-duration="900"
             >
-              <h2 className="text-base font-semibold leading-7 text-indigo-400">
+              <h2 className="text-2xl font-semibold leading-7 text-indigo-400">
                 Sistema de Afiliados
               </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
