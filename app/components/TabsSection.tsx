@@ -23,9 +23,9 @@ const tabs = [
     // ...
   },
   {
-    title: "Subwaysurf",
-    value: "Subwaysurf",
-    imageUrl: "/images/games/Subwaysurf.png",
+    title: "Subway Surf",
+    value: "Subway Surf",
+    imageUrl: "/images/games/subwaysurf2.png",
     // ...
   },
   // ... outras abas
