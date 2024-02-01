@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",
+    "@tabler/icons": "^2.46.0",
+    "@tabler/icons-react": "^2.46.0",
     "aos": "^3.0.0-beta.6",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.3",
