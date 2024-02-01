@@ -54,10 +54,10 @@ export default function HeroSection() {
           <div className="mt-24 sm:mt-32 lg:mt-16">
             <a href="#" className="inline-flex space-x-6">
               <span className="rounded-full bg-indigo-500/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-400 ring-1 ring-inset ring-indigo-500/20">
-                Vários modelos disponíveis
+                Vários modelos
               </span>
               <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-300">
-                <span>Melhor preço do mercado</span>
+                <span>Melhor preço</span>
                 <ChevronRightIcon
                   className="h-5 w-5 text-gray-500"
                   aria-hidden="true"
@@ -78,10 +78,10 @@ export default function HeroSection() {
               href="#"
               className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
             >
-              Conheça agora mesmo
+              Conheça agora
             </a>
             <a href="#" className="text-sm font-semibold leading-6 text-white">
-              Veja nossos jogos disponíveis <span aria-hidden="true">→</span>
+              Veja nossos jogos <span aria-hidden="true">→</span>
             </a>
           </div>
         </div>
