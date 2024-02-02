@@ -7,25 +7,25 @@ const tabs = [
   {
     title: "Flyperama",
     value: "Flyperama",
-    imageUrl: "/images/games/flyperama.png",
+    imageUrl: "/images/games/flyperama_mac.png",
     // ...
   },
   {
     title: "AngryBirds Cash",
     value: "AngryBirds Cash",
-    imageUrl: "/images/games/angrybirdscash.png",
+    imageUrl: "/images/games/angrybirds_mac.png",
     // ...
   },
   {
     title: "Jetpackpix",
     value: "Jetpackpix",
-    imageUrl: "/images/games/jetpackpix.png",
+    imageUrl: "/images/games/jetpack_mac.png",
     // ...
   },
   {
     title: "Subway Surf",
     value: "Subway Surf",
-    imageUrl: "/images/games/subwaysurf2.png",
+    imageUrl: "/images/games/subway_mac.png",
     // ...
   },
   // ... outras abas
@@ -33,8 +33,8 @@ const tabs = [
 
 export function TabsSection() {
   return (
-    <div className="bg-gray-900 h-[55rem]">
-      <div className=" h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-[77rem] mx-auto w-full  items-start justify-start">
+    <div className="bg-gray-900 h-[1130px]">
+      <div className=" h-[65rem]  md:h-[60rem] [perspective:1000px] relative b flex flex-col max-w-[77rem] mx-auto w-full  items-start justify-start">
         <h2
           className="text-2xl font-semibold leading-7 text-indigo-400"
           data-aos="fade-up"
@@ -80,7 +80,7 @@ const DummyContent = ({ imageUrl }: DummyContentProps) => {
       alt="Product Image"
       width="1000"
       height="1000"
-      className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+      className="object-none md:object-cover sm:object-cover object-left-top h-[60%]  md:h-[90%] absolute bottom-10  inset-x-0 w-[90%] rounded-xl mx-auto"
     />
   );
 };
