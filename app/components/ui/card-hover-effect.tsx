@@ -17,7 +17,7 @@ export const HoverEffect = ({
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
-    <div className="h-[50rem] flex flex-col py-4 md:pt-[12rem] sm:pt-[47rem] min-[629px]:pt-[50rem] min-[422px]:pt-[62rem] min-[450px]:pt-[62rem] min-[350px]:pt-[70rem] max-[349px]:pt-[70rem]  antialiased bg-gray-900 dark:bg-gray-900 dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="h-[60rem] md:h-[50rem] flex flex-col py-[7rem] md:pt-[12rem]  min-[450px]:pt-[62rem] min-[350px]:pt-[60rem] max-[349px]:pt-[70rem]  antialiased bg-gray-900 dark:bg-gray-900 dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <div
         className="mx-auto max-w-2xl lg:text-center"
         data-aos="fade-up"
