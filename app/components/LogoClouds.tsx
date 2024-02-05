@@ -19,39 +19,45 @@ export default function LogoCloudsSection() {
               >
                 Lorem ipsum dolor sit amet consect adipisicing possimus.
               </p>
-              <a
-                href="#"
-                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
-                data-aos="fade-left"
-                data-aos-duration="80"
-              >
-                Conheça agora
-              </a>
             </div>
           </div>
           <div
-            className="items-center mx-auto mt-10 grid grid-cols-3 justify-center  gap-x-8 gap-y-10 sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:grid-cols-3"
+            className="items-center mx-auto mt-10 grid grid-cols-5 justify-center  gap-x-8 gap-y-10 sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:grid-cols-5"
             data-aos="fade-up"
             data-aos-duration="900"
           >
             <img
               className="col-span-2 max-h-20 w-full object-contain object-center lg:col-span-1"
               src="images/sqala-logo.svg"
-              alt="Tuple"
+              alt="Sqala"
               width={458}
               height={100}
             />
             <img
               className="col-span-2 max-h-20  w-full object-contain object-center lg:col-span-1"
               src="images/bpay-logo.svg"
-              alt="SavvyCal"
+              alt="Bpay"
               width={800}
               height={100}
             />
             <img
               className="col-span-2 max-h-20  w-full object-contain object-center lg:col-span-1"
               src="images/SuitPay-Branco.png"
-              alt="Statamic"
+              alt="Suitpay"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-20  w-full object-contain object-center lg:col-span-1"
+              src="images/stripe-seeklogo 1.svg"
+              alt="Stripe"
+              width={158}
+              height={48}
+            />
+            <img
+              className="col-span-2 max-h-20  w-full object-contain object-center lg:col-span-1"
+              src="images/logo-light.a12d0d81.png"
+              alt="Ezzebank"
               width={158}
               height={48}
             />
